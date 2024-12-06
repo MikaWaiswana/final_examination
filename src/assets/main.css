@@ -1,0 +1,39 @@
+@import './base.css';
+
+* {
+  font-family: "Poppins";
+}
+
+.img1 {
+  background-image: url("@/assets/img/hero.png");
+  min-width: 100%;
+  height: 70vh;
+  background-size: cover;
+}
+
+
+@media only screen and (min-width: 992px) {
+  /* styles for browsers larger than 992px; */
+}
+
+@media only screen and (min-width: 768px) {
+  /* default iPad screens */
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  /* for sumo sized (mac) screens */
+}
+
+@media only screen and (min-width: 1400px) {
+  /* styles for browsers larger than 1440px; */
+  
+}
+
+@media only screen and (min-width: 576px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+@media only screen and (max-width: 576px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
